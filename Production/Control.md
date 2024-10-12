@@ -43,4 +43,21 @@
 
     | Commit Control v0.0.0
 
-    
+    - Update Control & Control_Util
+
+        > Connect 함수를 생성하고 게임패드 연결 로직을 구현
+
+        > Control 컴포넌트에서 Connect 함수를 호출하고 반환 값을 변수에 저장하는 로직을 구현
+
+        > GamepadCheck 함수를 생성하고 게임패드 입력 감지 로직을 구현
+
+        > Control 컴포넌트에서 GamepadCheck 함수를 호출하는 감지된 값을 출력하는 로직을 구현
+
+    | Commit Control v0.0.1
+
+
+## 정보
+
+    - requestAnimationFrame()의 원형은 requestAnimationFrame(callback)이다. 즉 매개변수로 지정한 함수를 반복적으로 호출하는 것이다.
+
+    - 
