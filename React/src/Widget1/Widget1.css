@@ -1,0 +1,138 @@
+
+.MAINSCREEN .WIDGET1 {
+
+  width: 25vw;
+  height: 88vh;
+}
+
+.WIDGET1 {
+
+  display: flex;
+  flex-direction: column;
+
+  width: 25vw;
+  height: 88vh;
+
+  gap: 5px;
+}
+
+.Widget1-split {
+
+  width: 25vw;
+  height: 43.8vh;
+}
+
+.Widget1-Monthly {
+
+  display: flex;
+  flex-direction: column;
+
+  width: 25vw;
+  height: 43.8vh;
+
+  padding: 10px;
+  background-color: whitesmoke;
+  
+  border-radius: 10px;
+}
+
+.Widget1-Head {
+
+  display: flex;
+  /* 월 표시와 년도 표시가 가로 정렬 */
+  flex-direction: row;
+
+  justify-content: start;
+  align-items: center;
+
+  padding: 10px;
+
+  gap: 20px;
+
+  width: 10vw;
+  height: 3vh;
+}
+
+.Widget1-month {
+
+  font-size: 2.5vh;
+  font-weight: bold;
+}
+
+.Widget1-year {
+
+  font-size: 1.8vh;
+  font-weight: bold;
+}
+
+.Widget1-Body {
+
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+
+  width: 25vw;
+  height: 38vh;
+
+  justify-content: center;
+  align-items: center;
+
+  flex-grow: 1;
+}
+
+.BODY .WEEKDAY,
+.BODY .DAY {
+
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+
+  width: 2vw;
+  height: 4vh;
+
+  border-radius: 100%;
+
+  /* background-color: aliceblue; */
+}
+
+.TEXT {
+
+  font-size: 1.8vh;
+
+  align-self: center;
+}
+
+.TODAY {
+
+  font-size: 2vh;
+  font-weight: bold;
+}
+
+.DAY .EVENT {
+
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+
+  width: 2vw;
+  height: 4vh;
+
+  border-radius: 100%;
+
+  background-color: lightblue;
+}
+
+.DAY .SUNDAY,
+.DAY .HOLIDAY {
+
+  color: red;
+}
+
+.DAY .SATURDAY {
+
+  color: blue;
+}
+
+
+

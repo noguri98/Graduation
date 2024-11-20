@@ -1,0 +1,142 @@
+
+.SelectScreen {
+
+    display: flex;
+    flex-direction: row;
+
+    justify-content: center;
+    align-items: center;
+
+    width: 92vw;
+    height: 88vh;
+
+    gap: 10px;
+
+    border-radius: 20px;
+
+    /* 위젯이 채워지면 배경색 제거 */
+    background-color: lightgray;
+}
+
+.SelectCamera {
+
+    display: flex;
+
+    width: 60vw;
+    height: 85vh;
+
+    justify-content: center;
+
+    border-radius: 20px;
+
+    padding: 15px;
+
+    background-color: white;
+}
+
+.CameraShow {
+
+    width: 90%;
+    height: 60vh;
+
+    margin-top: 4vh;
+    /* 제거 요망 */
+    border: 1px solid black;
+
+    border-radius: 20px;
+}
+
+.CameraFrame {
+
+    width: 100%;
+    height: 100%;
+
+    border-radius: 20px;
+}
+
+.CameraOption {
+
+    width: 30vw;
+    height: 85vh;
+  
+    padding: 10px;
+  
+    border-radius: 20px;
+  
+    background-color: white;
+}
+
+.OptionFrame {
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: space-between;
+    align-items: center;
+
+  
+    width: 100%;
+    height: 100%;
+  
+    padding:  10px;
+}
+
+.CameraMenu {
+
+    display: flex;
+    flex-direction: row;
+
+    width: 25vw;
+    height: 35vh;
+
+    gap: 1%; 
+}
+
+
+.CameraMenu-split {
+
+    display: flex;
+    flex-direction: column;
+
+    width: 49.5%;
+    height: 100%;
+
+    justify-content: center;
+    align-items: center;
+
+    gap: 50px;
+}
+
+.CameraButton {
+
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    width: 10vw;
+    height: 6vh;
+
+    border: 1px solid gray;
+    border-radius: 20px;
+}
+
+.CameraButton.active {
+
+    border: 2px solid blue;
+}
+
+.CameraButtonText {
+
+    font-size: 1.8vh;
+}
+
+.PhotoBox {
+
+    width: 25vw;
+    height: 30vh;
+
+    border-radius: 10px;
+
+    border: 1px solid gray;
+}

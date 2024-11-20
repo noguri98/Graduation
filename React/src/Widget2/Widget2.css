@@ -1,0 +1,60 @@
+
+.RIGHT .SPLIT .LEFT .WIDGET2 {
+
+    width: 40vw;
+    height: 22.5vh;
+}
+
+.WIDGET2 .FRAME {
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: flex-start;
+    align-items: center;
+
+    width: 40vw;
+    height: 22.5vh;
+
+    gap: 15px;
+
+    padding: 5px;
+
+    border-radius: 10px;
+
+    background-color: whitesmoke;
+}
+
+.WIDGET2 .HEAD {
+
+    display: flex !important;
+
+    width: 40vw;
+    height: 3vh;
+
+    margin-top: 1vh;
+
+    padding: 10px !important;
+
+    justify-content: start !important;
+    align-self: center !important;
+
+    font-size: 2vh;
+    font-weight: bold;
+}
+
+.WIDGET2 .BODY {
+
+    display: flex !important;
+
+    width: 40vw;
+    height: 3vh;
+
+    padding: 10px !important;
+
+    justify-content: start !important;
+    align-items: start !important;
+
+    font-size: 2vh;
+    font-weight: normal;
+}

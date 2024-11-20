@@ -1,0 +1,129 @@
+
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.ClientScreen {
+
+    width: 100vw;
+    height: 100vh;
+
+    padding-top: 10px;
+
+    background-color: rgba(212, 208, 208, 0.775);
+}
+
+/* SCREEN 요소 내에서만 HEAD 요소가 적용될 수 있다. */
+.ClientHead {
+
+    display: flex;
+
+    /* 자식 요소를 행 방향 정렬 */
+    flex-direction: row;
+
+    /* 자식 요소를 너비&높이 기준 가운데 위치 */
+    justify-content: center;
+    align-items: center;
+
+    width: 100vw;
+    height: 7vh;
+
+    /* NOTI와 BAR 사이의 간격을 설정 */
+    gap: 2vw;
+}
+
+.NOTI {
+
+    width: 60vw;
+    height: 5vh;
+
+    /* 추후 추가될 예정 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: 1px solid gray;
+}
+
+.BAR {
+
+    width: 35vw;
+    height: 5vh;
+
+    /* border: 1px solid gray; */
+}
+
+/* SCREEN 요소 내에서만 BODY 요소가 적용될 수 있다. */
+.ClientBody {
+
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    width: 100vw;
+    height: 93vh;
+}
+
+.ClientMenu {
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+    width: 5vw;
+    height: 75vh;
+
+    margin-top: 5vh;
+
+    gap: 10vh;
+
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+
+    background-color: rgba(255, 255, 255, 0.444);
+}
+
+.ClientBoard {
+
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    width: 93vw;
+    height: 90vh;
+
+    border-radius: 20px;
+
+    background-color: lightgray;
+}
+
+.ClientIcon {
+
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    width: 3vw;
+    height: 5vh;
+
+    border-radius: 5px;
+
+    background-color: whitesmoke;
+
+    font-size: 3.5vh;
+
+    transition: box-shadow 0.3s ease; /* 애니메이션 효과 추가 */
+}
+
+.ClientIcon.active {
+
+    box-shadow: 0 0 0 2px blue; /* border 대신 box-shadow 사용 */
+}

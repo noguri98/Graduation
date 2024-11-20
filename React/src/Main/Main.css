@@ -1,0 +1,82 @@
+
+.MainScreen {
+
+    display: flex;
+    flex-direction: row;
+
+    width: 92vw;
+    height: 88vh;
+
+    gap: 5px;
+
+    border-radius: 20px;
+
+    /* 위젯이 채워지면 배경색 제거 */
+    background-color: lightgray;
+}
+
+/* WIDGET1의 영역 */
+.WIDGET1 {
+
+    width: 25vw;
+    height: 88vh;
+}
+
+.MainScreen-right {
+
+    display: flex;
+    flex-direction: column;
+
+    width: calc(92vw - 25vw - 5px);
+    height: 88vh;
+
+    gap: 5px;
+}
+
+.MainScreen-split {
+
+    display: flex;
+    flex-direction: row;
+
+    width: calc(92vw - 25vw - 5px);
+    height: 43.7vh;
+
+    gap: 5px;
+}
+
+.MainScreen-left {
+
+    display: flex;
+    flex-direction: column;
+
+    width: 40vw;
+    height: 43.7vh;
+
+    gap: 5px;
+}
+
+.WIDGET2 {
+
+    width: 40vw;
+    height: 22.5vh;
+}
+
+.WIDGET3 {
+
+    width: 40vw;
+    height: 21vh;
+}
+
+.WIDGET4 {
+
+    width: 26.5vw;
+    height: 43.7vh;
+}
+
+.WIDGET5 {
+
+    width: calc(92vw - 25vw - 5px);
+    height: 43.7vh;
+
+    gap: 5px;
+}

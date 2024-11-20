@@ -1,0 +1,63 @@
+
+
+.Widget3Frame {
+
+    width: 40vw;
+    height: 20.7vh;
+
+    border-radius: 10px;    
+    
+    background-color: whitesmoke;
+}
+
+.lunch-container {
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.lunch-column {
+
+    display: flex;
+    flex-direction: row;
+
+    justify-content: start;
+    align-items: start;
+
+    width: 20vw;
+    height: 21vh;
+
+    border-radius: 10px;
+
+    padding: 10px;
+}
+
+h2 {
+    color: #333;
+    
+    font-size: 1.8vh;
+    font-weight: bold;
+
+    padding-right: 10px;
+
+    border-right: 2px solid #4CAF50;
+}
+
+ul {
+
+    list-style-type: none;
+
+    padding-left: 40px;
+}
+
+li {
+
+    font-size: 2vh;
+
+    color: #555;
+
+    justify-self: start;
+    align-self: center;
+
+    padding: 3px;
+}

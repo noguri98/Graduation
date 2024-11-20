@@ -1,0 +1,84 @@
+
+
+.SELECTSCREEN {
+
+    display: flex;
+    flex-direction: row;
+
+    justify-content: center;
+    align-items: center;
+
+    width: 92vw;
+    height: 88vh;
+
+    gap: 10px;
+
+    border-radius: 20px;
+
+    /* 위젯이 채워지면 배경색 제거 */
+    background-color: lightgray;
+}
+
+.SELECTSCREEN .COMMUE {
+
+    width: 60vw;
+    height: 85vh;
+
+    border-radius: 20px;
+
+    background-color: white;
+
+    padding: 15px;
+}
+
+.SELECTSCREEN .COMMUE .COMMUEFRAME {
+
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+    height: 100%;
+
+    padding: 10px;
+
+    /* 제거 요망 */
+    border: 1px solid black;
+}
+
+.SELECTSCREEN .LIST {
+
+    width: 30vw;
+    height: 85vh;
+  
+    padding: 10px;
+  
+    border-radius: 20px;
+  
+    background-color: white;
+}
+
+.LIST .LISTFRAME {
+
+    display: flex;
+    flex-direction: column;
+  
+    width: 100%;
+    height: 100%;
+  
+    padding: 10px;
+  
+    border: 1px solid black;
+}
+
+.MESSAGELIST {
+
+    display: flex;
+    flex-direction: column;
+
+    gap: 20px;
+}
+
+.MessageText {
+
+    font-size: 1.7vh;
+}
