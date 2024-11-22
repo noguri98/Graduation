@@ -27,7 +27,7 @@ CORS(System)
 socketio = SocketIO(System, cors_allowed_origins="*")
 
 # 데이터베이스 연결을 전역 변수로 설정
-db_connection = sqlite3.connect("/Users/nogyumin/Noguri/Project/졸업작품/DashBoard.db")
+db_connection = sqlite3.connect("DashBoard.db")
 db_cursor = db_connection.cursor()
 
 # 프로그램이 시작될 때 웹 크롤링 정보를 클라이언트로 전송하는 라우팅 시스템
@@ -108,7 +108,7 @@ def transferEvent() :
     return jsonify(eventDatas)
     
 def get_db_connection():
-    connection = sqlite3.connect("/Users/nogyumin/Noguri/Project/졸업작품/DashBoard.db")
+    connection = sqlite3.connect("DashBoard.db")
     connection.row_factory = sqlite3.Row  # 행을 딕셔너리 형태로 반환
     return connection
 
@@ -225,7 +225,7 @@ def maincameraUtil(frame) :
                 decodeData = decodeData[1]
                 
                 try:
-                    file = sqlite3.connect("/Users/nogyumin/Noguri/Project/졸업작품/DashBoard.db")
+                    file = sqlite3.connect("DashBoard.db")
                     conn = file.cursor()
                     
                     # 데이터베이스에 접근하여 decodeData와 같은 값을 가진 User가 있는지 확인
